@@ -17,6 +17,7 @@ project/plugins/project/
 .worksheet
 
 # For Eclipse with Scala IDE
+bin
 build
 .classpath
 .project
