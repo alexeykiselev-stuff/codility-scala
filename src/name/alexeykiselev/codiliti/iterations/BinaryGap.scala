@@ -1,7 +1,23 @@
 package name.alexeykiselev.codiliti.iterations
 
+import scala.math._;
+
 object BinaryGap {
   def solution(N: Int): Int = {
-    return 0;
+    var maxGapLength = 0
+    var gapLength = 0;
+    var value = N;
+    var increment = 0
+    
+    while (value > 0) {
+      if (value % 2 != 0) {
+        increment = 1;
+        maxGapLength = max(maxGapLength, gapLength);
+        gapLength = 0;
+      } else gapLength += increment
+      value = value / 2;
+    }
+    
+    return maxGapLength;
   }
 }

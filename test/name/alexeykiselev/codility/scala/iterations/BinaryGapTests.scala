@@ -11,5 +11,6 @@ class BinaryGapTests {
     assertEquals(2, BinaryGap.solution(9));
     assertEquals(1, BinaryGap.solution(20));
     assertEquals(0, BinaryGap.solution(0));
+    assertEquals(0, BinaryGap.solution(1));
   }
 }
