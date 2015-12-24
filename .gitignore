@@ -15,3 +15,16 @@ project/plugins/project/
 # Scala-IDE specific
 .scala_dependencies
 .worksheet
+
+# For Eclipse with Scala IDE
+build
+.classpath
+.project
+.settings
+org.scala-ide.sdt.core/META-INF/MANIFEST.MF
+org.scala-ide.sdt.update-site/site.xml
+.cache-main
+.cache-tests
+
+# For Mac OS X
+.DS_Store
