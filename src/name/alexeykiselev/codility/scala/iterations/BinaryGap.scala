@@ -1,4 +1,4 @@
-package name.alexeykiselev.codiliti.iterations
+package name.alexeykiselev.codility.scala.iterations
 
 import scala.math._;
 
